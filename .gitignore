@@ -1,0 +1,13 @@
+.DS_STORE
+node_modules
+static
+.module-cache
+*.log*
+_nogit
+build
+coverage
+*.report.dom.html
+/dll
+.idea
+/.cache-loader
+/.vscode

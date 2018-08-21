@@ -1,0 +1,35 @@
+extends:
+  - eslint-config-airbnb
+  - prettier
+  - prettier/react
+
+plugins:
+    - prettier
+
+parser:
+  babel-eslint
+
+settings:
+  ecmascript: 6
+
+parserOptions:
+  sourceType: "module"
+  ecmaVersion: 6
+  ecmaFeatures:
+    jsx: true
+
+env:
+  browser: true
+  jest: true
+
+rules:
+  func-names: 0
+
+  import/no-unresolved: 0
+
+  react/forbid-prop-types: 0
+  react/jsx-filename-extension: 0
+  react/prefer-stateless-function: 0
+  react/no-children-prop: 0
+
+  prettier/prettier: ["error", {"trailingComma": "es5", "singleQuote": true, "printWidth": 140}]
